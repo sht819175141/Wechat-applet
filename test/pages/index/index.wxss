@@ -1,0 +1,8 @@
+/**index.wxss**/
+.box{
+  width:100%;
+  height:200px;
+  background: red;
+  line-height:200px;
+  text-align: center;
+}

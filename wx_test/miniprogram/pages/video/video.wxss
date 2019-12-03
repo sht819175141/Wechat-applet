@@ -1,0 +1,13 @@
+/* pages/scroll/scroll.wxss */
+.plugin {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.text{
+    height:30px;
+    line-height:30px;
+    display: block;
+    text-align: center;
+}
+

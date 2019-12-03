@@ -1,0 +1,54 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/map/map",
+    "pages/swiper/swiper",
+    "pages/video/video",
+    "pages/calendar/calendar"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/index",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat.png"
+    }, {
+      "text": "地图",
+      "pagePath": "pages/map/map",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat.png"
+    }, {
+
+      "text": "轮播",
+      "pagePath": "pages/swiper/swiper",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat.png"
+    }, {
+
+      "text": "电影",
+      "pagePath": "pages/video/video",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat.png"
+    }, {
+
+      "text": "日历",
+      "pagePath": "pages/calendar/calendar",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat.png"
+    }]
+  }
+}

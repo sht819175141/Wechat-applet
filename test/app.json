@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/calendar/calendar",
+    "pages/swiper/swiper",
+    "pages/video/video"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"tabBar/ring.png",
+      "selectedIconPath":"tabBar/ring_focus.png"
+    }, {
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath":"tabBar/index.png",
+      "selectedIconPath":"tabBar/index_focus.png"
+    },{
+      "pagePath": "pages/swiper/swiper",
+      "text": "轮播",
+      "iconPath":"tabBar/icon1.jpeg",
+      "selectedIconPath":"tabBar/icon8.jpg"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "电影",
+      "iconPath":"tabBar/icon1.jpeg",
+      "selectedIconPath":"tabBar/icon8.jpg"
+    },{
+      "pagePath": "pages/calendar/calendar",
+      "text": "日历",
+      "iconPath":"tabBar/icon1.jpeg",
+      "selectedIconPath":"tabBar/icon8.jpg"
+    }]
+  }
+}

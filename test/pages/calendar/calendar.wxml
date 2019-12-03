@@ -1,0 +1,24 @@
+<!--pages/scroll/scroll.wxml-->
+<text class="text">日历组件</text>
+<div class="plugin" id="plugin_calendar">
+    <section class="plugin_detail">
+        <p class="xz">选择入住时间</p>
+        <div class="date_table">
+            <div class="table_header">
+                <a class="prevMonth">{{'<'}}</a>
+                <a class="current_month">YYYY-MM</a>
+                <a class="nextMonth">{{'>'}}</a>
+            </div>
+            <div class="table_thead togrey">
+                <span>周日</span>
+                <span>周一</span>
+                <span>周二</span>
+                <span>周三</span>
+                <span>周四</span>
+                <span>周五</span>
+                <span>周六</span>
+            </div>
+            <div class="table_tbody"></div>
+        </div>
+    </section>    
+</div>
